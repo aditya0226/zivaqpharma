@@ -6,8 +6,8 @@ const nextConfig = {
         NEXT_PUBLIC_ENV: process.env.NEXT_PUBLIC_ENV,
       },
       output: 'export',
-  basePath: isGithubPages ? '' : '',
-  assetPrefix: isGithubPages ? '/' : '',
+  basePath: isGithubPages ? '/zivaqpharma' : '',
+  assetPrefix: isGithubPages ? '/zivaqpharma/' : '',
 };
 
 export default nextConfig;
