@@ -5,6 +5,8 @@ const nextConfig = {
    env: {
     NEXT_PUBLIC_ENV: process.env.NEXT_PUBLIC_ENV,
   },
+  images: { unoptimized: true },
+  // output: isGithubPages ? 'export' : undefined,
   output: 'export',
   basePath: '',
   assetPrefix: '',

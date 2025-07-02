@@ -1,4 +1,3 @@
-'use client'
 import "./globals.css";
 import QueryClientProviders from "../../utils/react-query/react-query";
 import Header from "../../components/header";
