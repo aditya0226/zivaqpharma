@@ -7,7 +7,7 @@ const nextConfig = {
       },
       output: 'export',
   basePath: isProd ? '/zivaqpharma' : '',
-  assetPrefix: isProd? '/zivaqpharma/' : '',
+  assetPrefix: isProd? '/' : '',
   images: {
     unoptimized: true, // Disable image optimization for static export
   },
