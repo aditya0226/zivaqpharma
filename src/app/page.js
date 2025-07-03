@@ -2,7 +2,6 @@
 import React from 'react';
 
 const config = require('../../next.config.mjs');
-console.log('config', config);
 
 const Users = () => {
 
