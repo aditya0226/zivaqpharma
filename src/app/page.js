@@ -1,7 +1,5 @@
 'use client'
-import { useQuery } from '@tanstack/react-query';
-import image1 from '../images/image1.png';
-import Image from 'next/image';
+import React from 'react';
 
 const config = require('../../next.config.mjs');
 
@@ -20,8 +18,8 @@ const Users = () => {
   ]
 
   return (
-    <div className='mx-auto p-4'>
-      <img className='mb-3' src={`${config.basePath}/images/image1.png`}  alt="image" />
+    <div className='mx-auto p-4 w-full' style={{ maxWidth: '100vw' }}>
+      <img className='mb-3 w-100 h-auto' src={'images/image1.png'}  alt="image" />
       <div className='mb-4'>
       <h2 className='text-primary text-3xl mb-3'>About Us - ZivaQ Pharmaceutical Inc</h2>
       <p className='text-lg mb-2'>At ZivaQ Pharmaceutical Inc, our mission is simple yet profound: to advance healthcare and enhance lives globally through innovative, affordable, and high-quality pharmaceutical solutions. Rooted in science and driven by purpose, we are committed to addressing some of the world’s most pressing health challenges by providing access to effective medications that improve patient outcomes.</p>
